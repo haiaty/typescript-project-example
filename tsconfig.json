@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "alwaysStrict": true,
+        "listEmittedFiles": true,
+        "outDir": "./build",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true
+    }
+}

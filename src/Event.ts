@@ -9,5 +9,6 @@ export class Event {
     constructor(aggregateId: string) {
 
         this.aggregateId = aggregateId;
+        this.eventId = "aaaa"
     }
 }

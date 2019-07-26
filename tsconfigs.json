@@ -1,9 +1,0 @@
-{
-    "compileOnSave": true,
-    "compilerOptions": {
-        "module": "commonjs",
-        "alwaysStrict": true,
-        "listEmittedFiles": true,
-        "outDir": "./build"
-    }
-}
