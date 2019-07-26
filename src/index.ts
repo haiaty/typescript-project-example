@@ -2,14 +2,19 @@
 'use strict'
 
 
-import { ChangeSupply }  from './Commands/ChangeSupply'
+import { WantsToChangeSupply } from './Intentions/WantsToChangeSupply'
 
 
-let input = process.argv[2];
+let aggregateId = 'TKN1'
+let newSupply: number = 5000000;
+var intention  = new WantsToChangeSupply(aggregateId, newSupply);
 
 
-var newCommand =  new ChangeSupply(input, 2.5);
+// verify intention
 
-var event = newCommand.generateEvent()
+if(Cache.isPresent(intention.aggregateId)) {
 
-console.log(event.aggregateId);
+}
+
+
+
